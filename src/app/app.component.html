@@ -1,0 +1,33 @@
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">
+            <img src="../assets/images/marvel_logo.png" alt="marvel_logo" height="36">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                <a class="nav-link" routerLink="">Characters</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" routerLink="comics">Comics</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" routerLink="series">Series</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-primary my-2 my-sm-0 mr-3" type="button">Sign Up</button>
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="button">Login</button>
+            </form>
+        </div>
+    </nav>
+    
+    <router-outlet></router-outlet>
+
+<footer class="mt-3 footer">
+    <p class="text-center">&copy; 2023 MARVEL </p>
+</footer>
